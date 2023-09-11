@@ -10,6 +10,7 @@ metadata:
   annotations:
     workflows.argoproj.io/description: |
       This is an example of coin flip defined as a sequence of conditional steps.\
+  namespace: argo-workflow
 spec:
   entrypoint: coinflip
   templates:
