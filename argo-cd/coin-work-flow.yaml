@@ -5,9 +5,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    repoURL: https://github.com/PaboO25/argo.git
     targetRevision: HEAD
-    path: argo-work-flow/coinflip
+    path: argo-work-flow
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
